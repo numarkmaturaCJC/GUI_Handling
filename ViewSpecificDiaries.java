@@ -109,7 +109,7 @@ public class ViewSpecificDiaries extends javax.swing.JFrame {
         // TODO add your handling code here:
         try{
             BufferedReader br = new BufferedReader(new FileReader("c:/data/diaryData.txt"));
-            String content = "";
+            String content = ""; 
             String rec = br.readLine();
             
             while(rec!=null){
